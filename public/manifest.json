@@ -1,6 +1,6 @@
 {
-  "short_name": "Game",
-  "name": "Game",
+  "short_name": "Word Guess",
+  "name": "Word Guess",
   "icons": [
     {
       "src": "favicon.ico",
