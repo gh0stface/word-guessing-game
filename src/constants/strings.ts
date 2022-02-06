@@ -1,4 +1,4 @@
-export const GAME_TITLE = 'Word Guess'
+export const GAME_TITLE = '5Letters'
 
 export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'

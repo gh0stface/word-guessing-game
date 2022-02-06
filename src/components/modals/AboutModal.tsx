@@ -7,17 +7,17 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="About 5Letters" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is a fork of an open source word guessing game
+        Brought to you by Abrom Douglas III
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Modified by Abrom Douglas
+      Based on open source word guessing game
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Check out the source code {' '}
         <a
-          href="https://ad3.in/word-guess"
+          href="https://ad3.in/5letters"
           className="underline font-bold"
         >
           here
