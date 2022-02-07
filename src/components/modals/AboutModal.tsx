@@ -7,38 +7,15 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About 5Letters" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Provided by Abrom Douglas III
-      </p>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        Based on open source code
-      </p>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        Here's the {' '}
+        This is an open source version of the word guessing game we all know and
+        love -{' '}
         <a
-          href="https://ad3.in/5letters"
+          href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-          forked version
-        </a>{' '}
-      </p>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        Here's the {' '}
-        <a
-          href="https://github.com/cwackerfuss/word-guessing-game"
-          className="underline font-bold"
-        >
-          original version
-        </a>{' '}
-      </p>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        Enjoying the game? Make sure to show your {' '}
-        <a
-          href="https://abrom.me/support"
-          className="underline font-bold"
-        >
-          support!
+          check out the code here
         </a>{' '}
       </p>
     </BaseModal>
