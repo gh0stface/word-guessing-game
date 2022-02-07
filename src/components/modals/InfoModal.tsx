@@ -16,21 +16,21 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="W" status="correct" />
-        <Cell value="E" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="K" />
+        <Cell value="E" />
+        <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter W is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="M" />
+        <Cell value="E" />
         <Cell value="L" status="present" />
         <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter L is in the word but in the wrong spot.
