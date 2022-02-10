@@ -36,8 +36,9 @@ import ReactGA from 'react-ga'
 import './App.css'
 
 function App() {
-  const ga_tracking_id = process.env.REACT_APP_TRACKING_ID
-  ReactGA.initialize('{ga_tracking_id}')
+  const ga_tracking_id = 'UA-219985642-1'
+  ReactGA.initialize(ga_tracking_id);
+  ReactGA.pageview(window.location.pathname + window.location.search);
   const prefersDarkMode = window.matchMedia(
     '(prefers-color-scheme: dark)'
   ).matches
