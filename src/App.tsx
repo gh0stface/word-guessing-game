@@ -32,10 +32,12 @@ import {
   loadGameStateFromLocalStorage,
   saveGameStateToLocalStorage,
 } from './lib/localStorage'
-
+import ReactGA from 'react-ga'
 import './App.css'
 
 function App() {
+  const ga_tracking_id = process.env.REACT_APP_TRACKING_ID
+  ReactGA.initialize('{ga_tracking_id}')
   const prefersDarkMode = window.matchMedia(
     '(prefers-color-scheme: dark)'
   ).matches
